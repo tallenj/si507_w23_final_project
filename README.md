@@ -2,6 +2,8 @@
 
 API Key:
 - A Google Maps Elevation API key is needed for this code to work.
+  - Create an Google Cloud account and go to Credentials under APIs & Service to create a key
+  - Either leave the key as universal or restrict it to just Maps Elevation API
 
 Python packages needed:
 - numpy
