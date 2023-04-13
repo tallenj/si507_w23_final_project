@@ -4,6 +4,10 @@ API Key:
 - A Google Maps Elevation API key is needed for this code to work.
   - Create an Google Cloud account and go to Credentials under APIs & Service to create a key
   - Either leave the key as universal or restrict it to just Maps Elevation API
+- I've run the code in the repo so the cache has been created
+  - All you'll need is a valid API key, but the function should detach the cache and not use your key
+  - If for some reason it does call the API:
+      - I'm only getting the nodes on the route so it will be nowhere near the free $200 monthtly API allowance
 
 Python packages needed:
 - numpy
