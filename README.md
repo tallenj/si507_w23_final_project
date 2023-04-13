@@ -1,5 +1,29 @@
 # si507_w23_final_project
 
-notebook requires Google API key but the html has the final output
+API Key:
+- A Google Maps Elevation API key is needed for this code to work.
+  - Create an Google Cloud account and go to Credentials under APIs & Service to create a key
+  - Either leave the key as universal or restrict it to just Maps Elevation API
+- I've run the code in the repo so the cache has been created
+  - All you'll need is a valid API key, but the function should detach the cache and not use your key
+  - If for some reason it does call the API:
+      - I'm only getting the nodes on the route so it will be nowhere near the free $200 monthtly API allowance
 
-view the raw html output and save as html, then open with your browser to view
+Python packages needed:
+- numpy
+- pandas
+- matplotlib.pyplot
+- seaborn
+- branca
+- jinja2
+- osmnx
+- networkx
+- folium
+
+Using the .ipynb file:
+- There are 7 functions and 1 class, run all of these first.
+- There is one cell at the bottom that creates three outputs.
+  - Uncomment i80_route_map to see the route; used to compare to Google Maps.
+  - Uncomment i80_route_final_web_map to see the final output of this program.
+  - A .html file is created when this cell is ran titled i80_route_final_web_map.
+    - Use this in your browser.
