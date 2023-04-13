@@ -15,9 +15,9 @@ Python packages needed:
 - folium
 
 Using the .ipynb file:
-- There are 7 functions and 1 class, run all of these first
-- There is one cell at the bottom that creates three outputs
-  - Uncomment i80_route_map to see the route; used to compare to Google Maps
-  - Uncomment i80_route_final_web_map to see the final output of this program
-  - A .html file is created when this cell is ran titled i80_route_final_web_map
-    - Use this in your browser
+- There are 7 functions and 1 class, run all of these first.
+- There is one cell at the bottom that creates three outputs.
+  - Uncomment i80_route_map to see the route; used to compare to Google Maps.
+  - Uncomment i80_route_final_web_map to see the final output of this program.
+  - A .html file is created when this cell is ran titled i80_route_final_web_map.
+    - Use this in your browser.
